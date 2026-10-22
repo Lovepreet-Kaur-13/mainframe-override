@@ -7,3 +7,17 @@ WHERE
   AND content ILIKE '%emptystack%'
   AND content ILIKE '%dad%';
 
+/* Get the username of the person who made the post about EmptyStack in forum_posts. */
+SELECT *
+FROM forum_accounts
+WHERE username = 'smart-money-44';
+
+/* Find all other accounts with the same last name. */
+SELECT *
+FROM forum_accounts
+WHERE last_name = 'Steele';
+
+/* Find all accounts in emptystack_accounts with the same last name. */
+SELECT *
+FROM emptystack_accounts
+WHERE last_name = 'Steele';
