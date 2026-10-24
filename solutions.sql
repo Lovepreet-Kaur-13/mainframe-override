@@ -36,3 +36,5 @@ emptystack_accounts WHERE username = 'your-boss-99';
 /*Get the ID of the project from emptystack_projects */
 SELECT * FROM 
 emptystack_projects WHERE code = 'TAXI';
+
+/
