@@ -28,3 +28,7 @@ WHERE last_name = 'Steele';
 /* Find the message in emptystack_messages that mentions a project involving self-driving taxis */
 SELECT * FROM
 emptystack_messages WHERE body ILIKE '%taxi%';
+
+/* Get the credentials for the admin account from emptystack_accounts. */
+SELECT * FROM 
+emptystack_accounts WHERE username = 'your-boss-99';
