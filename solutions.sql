@@ -24,3 +24,7 @@ WHERE last_name = 'Steele';
 SELECT *
 FROM emptystack_accounts
 WHERE last_name = 'Steele';
+
+/* Find the message in emptystack_messages that mentions a project involving self-driving taxis */
+SELECT * FROM
+emptystack_messages WHERE body ILIKE '%taxi%';
