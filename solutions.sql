@@ -32,3 +32,7 @@ emptystack_messages WHERE body ILIKE '%taxi%';
 /* Get the credentials for the admin account from emptystack_accounts. */
 SELECT * FROM 
 emptystack_accounts WHERE username = 'your-boss-99';
+
+/*Get the ID of the project from emptystack_projects */
+SELECT * FROM 
+emptystack_projects WHERE code = 'TAXI';
