@@ -1,4 +1,7 @@
 /* -- Find the forum post written in April 2048 that mentions EmptyStack and dad */
+\c mainframe_override
+\pset pager off
+\x on
 
 SELECT *
 FROM forum_posts
